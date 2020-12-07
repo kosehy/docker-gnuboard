@@ -44,7 +44,7 @@ if [ "$1" == "setup" ]; then
   && echo 'Starting Docker ...' \
   && sudo docker-compose up -d  \
   && echo 'Done! 🎉' \
-  && echo 'by Woosung Choi' \
+  && echo 'by Seunghyun Ko' \
   && echo 'Below is a list of containers.'\
   && sudo docker-compose ps \
   && echo 'Access your youngcart: http://'$DOMAIN':'$WEB_PORT;
